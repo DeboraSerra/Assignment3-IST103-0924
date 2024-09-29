@@ -59,3 +59,26 @@ main {
   font-size: 1.8rem;
   margin-bottom: 16px;
 }
+
+footer {
+  max-width: 80%;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+
+  a.link {
+    color: inherit;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+
+    & a {
+      color: inherit;
+    }
+  }
+}
